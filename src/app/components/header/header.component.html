@@ -1,17 +1,18 @@
 <header class="app-header">
-    <nav class="nav-menu">
 
-        <ul class="lista-menu">
+  <div class="container-img">
+    <img ngSrc="./assets/logo_docas.png" height="50" width="60" alt="" />
+  </div>
 
-            <li class="item-menu">
-                <a href="https://mail.docasdoceara.com.br/SOGo/">WEBMAIL</a>
-            </li>
+  <nav class="nav-menu">
 
-            <li class="item-menu">
-                <a
-                    href="https://sei.transportes.gov.br/sip/login.php?sigla_orgao_sistema=MT&sigla_sistema=SEI&infra_url=L3NlaS8=">
-                    <img ngSrc="./assets/sei.png" height="52" width="87" alt=""></a>
-            </li>
-        </ul>
-    </nav>
+    <a href="https://mail.docasdoceara.com.br/SOGo/">WEBMAIL</a>
+
+    <a href="https://sei.transportes.gov.br/sip/login.php?sigla_orgao_sistema=MT&sigla_sistema=SEI&infra_url=L3NlaS8=">
+      SEI
+    </a>
+
+      <input type="text" pInputText [(ngModel)]="value" />
+    
+  </nav>
 </header>

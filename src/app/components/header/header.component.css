@@ -1,18 +1,24 @@
 .app-header {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
+  height: 6vh;
+  background-color: #002E5D;
 }
-.lista-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-  }
-  
-.item-menu {
-  display: inline-block;
-  list-style-type: none;
+.nav-menu {
+  margin-right: 300px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
 }
+.container-img {
+  margin-left: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ a{
+  color: #ffff;
+  text-decoration: none;
+ }
